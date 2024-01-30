@@ -55,7 +55,7 @@ const Explore = () => {
                 </div>
             </div>
 
-            <div className="absolute bottom-5 px-3 animate__animated animate__backInUp animate__delay-fast w-full text-white flex flex-col items-center justify-center hidden max-sm:flex">
+            <div className="bottomScreen absolute bottom-5 px-3 animate__animated animate__backInUp animate__delay-fast w-full text-white flex flex-col items-center justify-center hidden max-sm:flex">
                 <div className='flex flex-row justify-center mt-5 animate__animated animate__backInUp animate__slow mb-5'>
                     <div className='text-5xl mx-3'>
                         <a href="https://www.instagram.com/ferdyfrms/" target="_blank" rel="noreferrer">

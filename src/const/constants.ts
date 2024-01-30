@@ -181,7 +181,7 @@ export const skillsList: SkillsList = {
         {
             "name": "Express.js",
             "level": "Intermediate",
-            "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+            "icon": "https://steppingstone.in/images/logos/express.png"
         },
         {
             "name": "Node.js",

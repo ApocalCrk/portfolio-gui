@@ -9,8 +9,11 @@ RUN npm install
 
 COPY . .
 
+RUN chmod +x /app/node_modules/.bin/vite
+RUN chmod +x /app/node_modules/.bin/tsc
+
+RUN chmod -R 777 /app/vite.config.ts*
+
 RUN npm run build
 
-EXPOSE 3312
-
-CMD ["npm", "start"]
+CMD ["npm", "run", "preview", "--", "--host"]

@@ -122,7 +122,7 @@ const Projects = () => {
                 <div />
             </div>
 
-            <div className="absolute bottom-5 px-3 animate__animated animate__backInUp animate__delay-fast w-full text-white flex flex-col items-center justify-center hidden max-sm:flex">
+            <div className="bottomScreen absolute bottom-5 px-3 animate__animated animate__backInUp animate__delay-fast w-full text-white flex flex-col items-center justify-center hidden max-sm:flex">
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%' }} className='animate__animated animate__backInUp animate__slow'>
                     <div 
                         className='text-3xl'
@@ -260,7 +260,7 @@ const Projects = () => {
                         exit={{ opacity: 0 }}
                     >
                         <m.div
-                            className="p-8 rounded-md shadow-md max-sm:mt-10 md:backdrop-blur-md md:bg-opacity-10 md:bg-black"
+                            className="p-8 rounded-md shadow-md md:backdrop-blur-md md:bg-opacity-10 md:bg-black"
                             whileTap={{ scale: 0.9 }}
                         >
                             <h2 className="hidden md:block text-2xl font-bold">{currentProject.title}</h2>
